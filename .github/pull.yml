@@ -1,0 +1,12 @@
+version: "1"
+rules:
+  - base: master
+    upstream: CGarces:master
+    mergeMethod: hardreset
+  - base: kernel_5.8
+    upstream: CGarces:kernel_5.8
+    mergeMethod: hardreset
+  - base: kernel_5.9
+    upstream: CGarces:kernel_5.9
+    mergeMethod: hardreset
+
